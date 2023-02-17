@@ -1,8 +1,5 @@
 <?php
 
-
-//phpinfo();  exit;
-
 use Phalcon\Di\FactoryDefault;
 use Phalcon\Autoload\Loader;
 use Phalcon\Mvc\View;
@@ -19,15 +16,14 @@ $loader->setDirectories(
     [
         APP_PATH . '/controllers/',
         APP_PATH . '/models/',
-        LIB_PATH . '/WebAnalytics/',
-        LIB_PATH . '/WebAnalytics/KPI/',
     ]
 );
-
+$loader->setNamespaces([
+    'WebAnalytics' => LIB_PATH . '/WebAnalytics/',
+]);
 $loader->register();
 
 $container = new FactoryDefault();
-
 $container->set(
     'view',
     function () {
@@ -36,7 +32,6 @@ $container->set(
         return $view;
     }
 );
-
 $container->set(
     'url',
     function () {
