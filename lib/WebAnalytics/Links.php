@@ -53,7 +53,7 @@ class Links
         $matches = [];
         
         $regexp = "<a\s[^>]*href=(\"??)([^\" >]*?)\\1[^>]*>(.*)<\/a>";
-        if(preg_match_all("/$regexp/siU", $this->htmlContent, $matches)) {
+        if (preg_match_all("/$regexp/siU", $this->htmlContent, $matches)) {
             foreach ($matches[2] as $key=>$link) {
                 if ($link[0] == '#' || $link == '/')
                     unset($matches[2][$key]);

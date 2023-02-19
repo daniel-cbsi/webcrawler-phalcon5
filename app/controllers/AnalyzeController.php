@@ -5,7 +5,7 @@ use Phalcon\Http\Request;
 
 //Custom library
 use WebAnalytics\{WebCrawler, Log, Results, Links};
-use WebAnalytics\KPI\{Pages, Images, Links as KpiLinks, Words, Titles};
+use WebAnalytics\KPI;
 
 /**
  * This class is the web crawl action controller 
@@ -44,21 +44,20 @@ class AnalyzeController extends Controller
         }
         
         Log::trace()->debug('STEP_3: Calculating KPIs.');
-        /*
+        
         $this->view->kpi = [
-            'numPages'     => Pages::getNumberCrawled($results),
-            'avgLoad'      => Pages::getAvgLoad($results),
-            'uniqImgNum'   => Images::getNumOfUnique($results),
-            'uniqExtLinks' => Links::getNumOfUniqExt($results),
-            'uniqIntLinks' => Links::getNumOfUniqInt($results),
-            'avgWordCount' => Words::getAvgCount($results),
-            'avgTitLength' => Titles::getAvgLength($results)
+            'numPages'     => KPI\Pages::getNumberCrawled($results),
+            'avgLoad'      => KPI\Pages::getAvgLoad($results),
+            'uniqImgNum'   => KPI\Images::getNumOfUnique($results),
+            'uniqExtLinks' => KPI\Links::getNumOfUniqExt($results),
+            'uniqIntLinks' => KPI\Links::getNumOfUniqInt($results),
+            'avgWordCount' => KPI\Words::getAvgCount($results),
+            'avgTitLength' => KPI\Titles::getAvgLength($results)
         ];
         
         Log::trace()->debug('FINISH ANALYTICS.');
         
         $this->view->urlStats = $results->get();
-        /**/
     }
     
     

@@ -31,7 +31,7 @@ class Results
      * @return Results
      * @param array $results   Results of crawling
      */
-    public function add(array $results) : Results
+    public function add(array $results): Results
     {
         $this->dataMatrix[] = $results;
         return $this;
@@ -43,7 +43,7 @@ class Results
      * @return array   Array of stored results
      * @param int $position  A position in the results
      */
-    public function get($position = -1) : array
+    public function get($position = -1): array
     {
         if ($position < 0){
             return $this->dataMatrix;
