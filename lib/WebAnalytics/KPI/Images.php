@@ -27,14 +27,14 @@ class Images
             $src = $src[0] == '/' ? WebAnalytics\WebCrawler::$domainName.$src : $src;
             
             try {
-                //$checksum = md5(file_get_contents($src));
-                $images[/*$checksum*/] = $src;
+                $checksum = md5(file_get_contents($src));
+                $images[$checksum] = $src;
             } catch (\Exception $e) {
                 WebAnalytics\Log::trace()->error('Image couldn\'t be opened due to: ', $e->getMessage());
             }
         }
             
-        WebAnalytics\Log::trace()->debug(count($images) . ' of unique images found: ' . print_r($images, true));
+        WebAnalytics\Log::trace()->debug(count($images) . ' of unique images found.');
         
         $number = count($images);
         
@@ -56,24 +56,23 @@ class Images
             $dom = new \DOMDocument();
             libxml_use_internal_errors(true);
             $dom->loadHTML($result['content']);
-            WebAnalytics\Log::trace()->debug('Seeking SRCs in: ' . $result['content']);
+            //WebAnalytics\Log::trace()->debug('Seeking SRCs in: ' . $result['content']);
             libxml_clear_errors();
-            $xml = simplexml_import_dom($dom);
             
+            /*$xml = simplexml_import_dom($dom);
             foreach ($xml->xpath('//img') as $image) {
                 $sources[] = $image['src'];
-            }
-            
-            /*$dom->preserveWhiteSpace = false;
-            
+            }*/
+                        
+            $dom->preserveWhiteSpace = false;
             foreach ($dom->getElementsByTagName('img') as $image) {
                 $sources[] = $image->getAttribute('src');
-            }/**/
+            }
         }
         
-        //$sources = array_unique($sources);
+        $sources = array_unique($sources);
         
-        WebAnalytics\Log::trace()->debug('List of image sources prepared. Count of sources: ' . count($sources));
+        //WebAnalytics\Log::trace()->debug('List of image sources prepared. Count of sources: ' . count($sources));
         return $sources;
     }
 }

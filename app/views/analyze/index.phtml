@@ -1,39 +1,97 @@
-<?php $asd = 'asdsad'; ?>
 
-<h1>Results</h1>
+<h2 class="display-4 text-center">Results of crawling</h2>
 
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
  <button type="button" class="btn btn-primary me-md-2" onclick="javascript: location.href = '/' ">Analyze Again</button>
 </div>
 
-<a href="asdsad">asdsa</a>
- 
+<br />
+
+<h4 class="mb-3">Crawling KPIs</h4>
+
+<div class="card-group">
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Number of pages crawled:</p>
+        <h5 class="card-title"><?php echo $kpi['numPages'] ?></h5>
+        <br />
+      </div>
+    </div>
+    
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Averga page transfer in seconds:</p>
+        <h5 class="card-title"><?php echo $kpi['avgLoad'] ?></h5>
+        <br />
+      </div>
+    </div>
+    
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Number of unique images:</p>
+        <h5 class="card-title"><?php echo $kpi['uniqImgNum'] ?></h5>
+        <br />
+      </div>
+    </div>
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Number of unique external links:</p>
+        <h5 class="card-title"><?php echo $kpi['uniqExtLinks'] ?></h5>
+        <br />
+      </div>
+    </div>
+</div>
+
+<br />
+
+<div class="card-group">
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Number of unique internal links:</p>
+        <h5 class="card-title"><?php echo $kpi['uniqIntLinks'] ?></h5>
+        <br />
+      </div>
+    </div>
+    
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Average words count:</p>
+        <h5 class="card-title"><?php echo $kpi['avgWordCount'] ?></h5>
+        <br />
+      </div>
+    </div>
+    
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <p class="card-text">Average title length:</p>
+        <h5 class="card-title"><?php echo $kpi['avgTitLength'] ?></h5>
+        <br />
+      </div>
+    </div>
+</div>
+
+<br />
+
+<h4 class="mb-3">URL stats:</h4>
+
 <table class="table table-hover">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First </th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">URL </th>
+      <th scope="col">Status</th>
+      <th scope="col">Transfer time</th>
     </tr>
   </thead>
   <tbody>
+  <?php foreach($urlStats as $key=>$details):?>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row"><?php echo $key+1; ?></th>
+      <td><?php echo $details['url']; ?></td>
+      <td><?php echo $details['statusCode']; ?></td>
+      <td><?php echo $details['transferTime']; ?></td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+  <?php endforeach; ?>  
   </tbody>
 </table>
+

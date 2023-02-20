@@ -25,10 +25,10 @@ class AnalyzeController extends Controller
         $request = new Request();
         
         $domain   = $request->getPost('domain');
-        $numpages = $request->getPost('numpages');
+        $numpages = abs($request->getPost('numpages'));
         
         Log::trace()->debug('START ANALYTICS.');
-        Log::trace()->debug('STEP_1: Domain: '. $domain .' and number of pages is: ' . $numpages);
+        Log::trace()->debug('STEP_1: Domain: '. $domain .' and number of internal pages is: ' . $numpages);
         
         $results = new Results();
         $results->add(WebCrawler::init($domain)->crawl());

@@ -50,20 +50,18 @@ class Links
     public function getAllUnique(): array
     {
         $links   = [];
-        $matches = [];
         
-        $regexp = "<a\s[^>]*href=(\"??)([^\" >]*?)\\1[^>]*>(.*)<\/a>";
-        if (preg_match_all("/$regexp/siU", $this->htmlContent, $matches)) {
-            foreach ($matches[2] as $key=>$link) {
-                if ($link[0] == '#' || $link == '/')
-                    unset($matches[2][$key]);
-            }
-            
-            $links = array_unique($matches[2]);
-            // $matches[3] = links innerHTML
+        $dom = new \DOMDocument();
+        libxml_use_internal_errors(true);
+        $dom->loadHTML($this->htmlContent);
+        libxml_clear_errors();
+        
+        $dom->preserveWhiteSpace = false;
+        foreach ($dom->getElementsByTagName('a') as $image) {
+            $links[] = $image->getAttribute('href');
         }
         
-        return $links;
+        return array_unique($links);
     }
     
     /**
@@ -74,22 +72,24 @@ class Links
      * @param int $number   Number of links to retrieve
      * @param boolean  $random  Randomize selection of links
      */
-    public function getInternal(int $number, $random = false): array
+    public function getInternal(int $number = -1, $random = false): array
     {
         $internal_links = [];
         
         foreach ($this->getAllUnique() as $link) {
-            
-            // TODO: here should be more options for possible internal links, 
-            //       e.g. when it starts with a domain name
-            //            when it doesn't start with http word
-            if ($link[0] == '/') {
+            //TODO: more options possible
+            if ($link[0] == '/' 
+                && strlen($link) > 1
+            ) {
                 $internal_links[] = $link;
             }
         }
         
-        $internal_links = array_chunk($internal_links, $number)[0] ?? [];
-        Log::trace()->debug('INTERNAL LINKS: ' . print_r($internal_links, true));
+        if ($number != -1) {
+            $internal_links = array_chunk($internal_links, $number)[0] ?? [];
+        }
+        
+        Log::trace()->debug('INTERNAL LINKS count: ' . count($internal_links));
         
         return $internal_links;
     }
@@ -102,9 +102,24 @@ class Links
      * @param int $number   Number of links to retrieve
      * @param boolean  $random  Randomize selection of links
      */
-    public function getExternal(int $number, $random = false): array
+    public function getExternal(int $number = -1, $random = false): array
     {
-        return [];
+        $external_links = [];
+        
+        foreach ($this->getAllUnique() as $link) {
+            //TODO: more options possible
+            if (substr($link, 0, 4) == 'http') {
+                $external_links[] = $link;
+            }
+        }
+        
+        if ($number != -1) {
+            $external_links = array_chunk($external_links, $number)[0] ?? [];
+        }
+        
+        Log::trace()->debug('INTERNAL LINKS count: ' . count($external_links));
+        
+        return $external_links;
     }
 }
 

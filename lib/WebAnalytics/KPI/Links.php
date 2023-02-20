@@ -26,10 +26,17 @@ class Links
      */
     public function getNumOfUniqExt(WebAnalytics\Results $results): int
     {
-        $number = 0;
+        $number    = 0;
+        $all_links = [];
         
+        foreach ($results->get() as $result) {
+            $wa_links = new WebAnalytics\Links();
+            $wa_links->setContent($result['content']);
+            
+            $all_links = array_merge($all_links, $wa_links->getExternal());
+        }
         
-        return $number;
+        return count(array_unique($all_links));
     }
     
     /**
@@ -41,10 +48,17 @@ class Links
      */
     public function getNumOfUniqInt(WebAnalytics\Results $results): int
     {
-        $number = 0;
-    
-    
-        return $number;
+        $number    = 0;
+        $all_links = [];
+        
+        foreach ($results->get() as $result) {
+            $wa_links = new WebAnalytics\Links();
+            $wa_links->setContent($result['content']);
+            
+            $all_links = array_merge($all_links, $wa_links->getInternal());
+        }
+        
+        return count(array_unique($all_links));
     }
 }
 

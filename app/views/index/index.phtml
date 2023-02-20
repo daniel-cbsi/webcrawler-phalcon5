@@ -1,22 +1,23 @@
-<h2 class="display-4">Crawl through any website</h2>
+<h2 class="display-4 text-center">Crawl through websites</h2>
 
 <br />  
 
 <form action="/analyze" method="post">
     <div class="form-group">
         <label for="domain">Domain name to analyze</label>
-        <input type="text" name="domain" id="domain" class="form-control"  placeholder="Enter domain"  required />
+        <input type="text" name="hardcoded_domain" value="https://agencyanalytics.com/" id="domain" class="form-control" placeholder="Enter domain" disabled />
+        <input type="hidden" name="domain" value="https://agencyanalytics.com/" />
         <small class="form-text text-muted">Provide domain name, like agencyanalytics.com OR https://agencyanalytics.com/</small>
     </div>
     
     <div class="form-group">
         <label for="numpages">Number of pages to crawl</label>
         <input type="text" id="numpages" name="numpages" class="form-control" value="1" />
-        <small class="form-text text-muted">Provide number of internal pages to crawl. Max is 100</small>
+        <small class="form-text text-muted">Provide number of internal pages to crawl.</small>
     </div>
     
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <button type="submit" class="btn btn-primary me-md-2">Get Analytics</button>
+        <button type="submit" class="btn btn-primary me-md-2" onclick="javascript: ">Get Analytics</button>
     </div>
 
 </form>

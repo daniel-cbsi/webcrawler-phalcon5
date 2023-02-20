@@ -22,11 +22,8 @@ class Pages
      * @param WebAnalytics\Results $results   Results of crawling
      */
     public function getNumberCrawled(WebAnalytics\Results $results): int
-    {
-        $number = 0;
-        
-        
-        return $number;
+    {   
+        return count($results->get());
     }
     
     /**
@@ -38,10 +35,17 @@ class Pages
      */
     public function getAvgLoad(WebAnalytics\Results $results): float
     {
-        $number = 0;
+        $avgload_sec = 0;
+        $total_time  = 0;
+        $all_results = $results->get();
+        
+        foreach ($all_results as $result) {
+            $total_time += (float)$result['transferTime'];
+        }
+        
+        $avgload_sec = $total_time / count($all_results);
     
-    
-        return $number;
+        return $avgload_sec;
     }
 }
 

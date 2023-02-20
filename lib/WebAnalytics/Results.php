@@ -17,7 +17,7 @@ class Results
      *  [
      *   'url' => '',
      *   'statusCode' => '',
-     *   'loadTime' => '',
+     *   'transferTime' => '',
      *   'content' => ''
      *  ]
      * 
