@@ -36,6 +36,8 @@ class Links
             $all_links = array_merge($all_links, $wa_links->getExternal());
         }
         
+        //WebAnalytics\Log::trace()->debug('EXT LINKS: '. print_r($all_links, true));
+        
         return count(array_unique($all_links));
     }
     
@@ -57,6 +59,8 @@ class Links
             
             $all_links = array_merge($all_links, $wa_links->getInternal());
         }
+        
+        //WebAnalytics\Log::trace()->debug('INT LINKS: '. print_r($all_links, true));
         
         return count(array_unique($all_links));
     }

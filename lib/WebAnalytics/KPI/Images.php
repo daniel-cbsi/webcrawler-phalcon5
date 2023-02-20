@@ -35,6 +35,7 @@ class Images
         }
             
         WebAnalytics\Log::trace()->debug(count($images) . ' of unique images found.');
+        //WebAnalytics\Log::trace()->debug('UNIQ_IMAGES: ' . print_r($images, true));
         
         $number = count($images);
         
@@ -58,11 +59,6 @@ class Images
             $dom->loadHTML($result['content']);
             //WebAnalytics\Log::trace()->debug('Seeking SRCs in: ' . $result['content']);
             libxml_clear_errors();
-            
-            /*$xml = simplexml_import_dom($dom);
-            foreach ($xml->xpath('//img') as $image) {
-                $sources[] = $image['src'];
-            }*/
                         
             $dom->preserveWhiteSpace = false;
             foreach ($dom->getElementsByTagName('img') as $image) {

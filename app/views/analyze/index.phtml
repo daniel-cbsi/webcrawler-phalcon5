@@ -87,7 +87,7 @@
   <?php foreach($urlStats as $key=>$details):?>
     <tr>
       <th scope="row"><?php echo $key+1; ?></th>
-      <td><?php echo $details['url']; ?></td>
+      <td><?php echo preg_replace('/([^:])(\/{2,})/', '$1/', $details['url']); ?></td>
       <td><?php echo $details['statusCode']; ?></td>
       <td><?php echo $details['transferTime']; ?></td>
     </tr>

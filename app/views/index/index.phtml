@@ -3,15 +3,16 @@
 <br />  
 
 <form action="/analyze" method="post" id="start-form">
-    <div class="form-group">
-        <label for="domain">Domain name to analyze</label>
-        <input type="text" name="hardcoded_domain" value="https://agencyanalytics.com/" id="domain" class="form-control" placeholder="Enter domain" disabled />
-        <input type="hidden" name="domain" value="https://agencyanalytics.com/" />
-        <small class="form-text text-muted">Provide domain name, like agencyanalytics.com OR https://agencyanalytics.com/</small>
+
+    <div class="form-group form-floating">
+        <label for="domain" class="text-muted" style="padding: 17px 0 0 12px">https://agencyanalytics.com</label>
+        <input style="padding: 0 0 0 210px" type="text" name="url_path" value="/" id="domain" class="form-control" placeholder="Enter domain" />
+        <input type="hidden" name="domain" value="https://agencyanalytics.com" />
+        <small class="form-text text-muted">Provide URL path for https://agencyanalytics.com. E.g. /feature/white-label</small>
     </div>
     
-    <div class="form-group">
-        <label for="numpages">Number of pages to crawl</label>
+    <div class="form-group mt-3">
+        <!--  label for="numpages">Number of pages to crawl</label -->
         <input type="text" id="numpages" name="numpages" class="form-control" value="0" />
         <small class="form-text text-muted">Provide number of internal pages to crawl.</small>
     </div>
