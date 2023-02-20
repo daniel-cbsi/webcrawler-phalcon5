@@ -117,7 +117,7 @@ class Links
             $external_links = array_chunk($external_links, $number)[0] ?? [];
         }
         
-        Log::trace()->debug('INTERNAL LINKS count: ' . count($external_links));
+        Log::trace()->debug('EXTERNAL LINKS count: ' . count($external_links));
         
         return $external_links;
     }

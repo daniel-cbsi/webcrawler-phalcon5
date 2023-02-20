@@ -2,7 +2,7 @@
 
 <br />  
 
-<form action="/analyze" method="post">
+<form action="/analyze" method="post" id="start-form">
     <div class="form-group">
         <label for="domain">Domain name to analyze</label>
         <input type="text" name="hardcoded_domain" value="https://agencyanalytics.com/" id="domain" class="form-control" placeholder="Enter domain" disabled />
@@ -12,12 +12,22 @@
     
     <div class="form-group">
         <label for="numpages">Number of pages to crawl</label>
-        <input type="text" id="numpages" name="numpages" class="form-control" value="1" />
+        <input type="text" id="numpages" name="numpages" class="form-control" value="0" />
         <small class="form-text text-muted">Provide number of internal pages to crawl.</small>
     </div>
     
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <button type="submit" class="btn btn-primary me-md-2" onclick="javascript: ">Get Analytics</button>
+        <button id="sbmt-btn" type="submit" class="btn btn-primary me-md-2" >Get Analytics</button>
     </div>
 
 </form>
+<script type="text/javascript">
+
+document.getElementById('start-form').onsubmit = function() {
+	document.getElementById('sbmt-btn').disabled  = true;
+	document.getElementById('sbmt-btn').innerHTML = 'Processing ...';
+
+	return true;
+}
+
+</script>
