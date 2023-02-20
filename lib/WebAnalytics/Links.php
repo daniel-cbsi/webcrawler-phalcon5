@@ -4,7 +4,7 @@ namespace WebAnalytics;
 
 
 /**
- * This class is intended to operate links
+ * This class is intended to search links
  *   in an HTML content
  * 
  * @author Dan Sazonov
@@ -77,8 +77,10 @@ class Links
         $internal_links = [];
         
         foreach ($this->getAllUnique() as $link) {
-            //TODO: more options possible
-            if ($link[0] == '/' 
+            /**
+             * TODO: research more options possible
+             */
+            if (isset($link[0]) && $link[0] == '/' 
                 && strlen($link) > 1
             ) {
                 $internal_links[] = $link;
@@ -103,11 +105,10 @@ class Links
      * @param boolean  $random  Randomize selection of links
      */
     public function getExternal(int $number = -1, $random = false): array
-    {
+    {        
         $external_links = [];
         
         foreach ($this->getAllUnique() as $link) {
-            //TODO: more options possible
             if (substr($link, 0, 4) == 'http'
                 && parse_url($link, PHP_URL_HOST) != 'agencyanalytics.com'
             ) {

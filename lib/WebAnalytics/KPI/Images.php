@@ -35,8 +35,6 @@ class Images
         }
             
         WebAnalytics\Log::trace()->debug(count($images) . ' of unique images found.');
-        //WebAnalytics\Log::trace()->debug('UNIQ_IMAGES: ' . print_r($images, true));
-        
         $number = count($images);
         
         return $number;
@@ -57,7 +55,6 @@ class Images
             $dom = new \DOMDocument();
             libxml_use_internal_errors(true);
             $dom->loadHTML($result['content']);
-            //WebAnalytics\Log::trace()->debug('Seeking SRCs in: ' . $result['content']);
             libxml_clear_errors();
                         
             $dom->preserveWhiteSpace = false;
@@ -68,7 +65,6 @@ class Images
         
         $sources = array_unique($sources);
         
-        //WebAnalytics\Log::trace()->debug('List of image sources prepared. Count of sources: ' . count($sources));
         return $sources;
     }
 }

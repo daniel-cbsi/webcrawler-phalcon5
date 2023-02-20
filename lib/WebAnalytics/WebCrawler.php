@@ -116,8 +116,6 @@ class WebCrawler
             return [];
         }
         
-        //Log::trace()->error('RESULTS: ' . $response);
-        
         return $response;
     }
     
@@ -137,8 +135,6 @@ class WebCrawler
                 'https://api.webscrapingapi.com/v1?api_key='.$api_key
                .'&url='. urlencode($url)
                .'&render_js=1'
-               //.'&screenshot=1'
-               //.'&json_response=1'
                .'&js_instructions='
                    . urlencode('[
                         {"action":"scrollInf","count":"25","timeout": 100}
