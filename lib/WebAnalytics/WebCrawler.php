@@ -29,9 +29,18 @@ class WebCrawler
      */
     static public function init($domain = null): WebCrawler
     {
-        if ($domain != null) {
-            self::$domainName = $domain;
+        if ($domain == null) {
+            return new self();
         }
+        
+        $scheme = 'https';
+        $url_scheme = parse_url($domain, PHP_URL_SCHEME);
+        $url_domain = parse_url($domain, PHP_URL_HOST);
+       
+        self::$domainName = (strlen($url_scheme) > 3 ? $url_scheme : $scheme) 
+                    .'://'.(strlen($url_domain) > 3 ? $url_domain : $domain);
+        
+        Log::trace()->debug('Validated domain name: ' . self::$domainName);
         
         return new self();
     }
@@ -127,18 +136,20 @@ class WebCrawler
      * @param string $url   A URL to request
      */
     private function getCurlSettings($url): array
-    {
-        $api_key = '36yICX4hjnL28517tFKOYBSMjcQvsxki';
-        
-        return [
-            CURLOPT_URL => 
-                'https://api.webscrapingapi.com/v1?api_key='.$api_key
-               .'&url='. urlencode($url)
-               .'&render_js=1'
-               .'&js_instructions='
-                   . urlencode('[
+    {        
+        $api_key = 'enterapikey';
+        $api_url = 'https://api.webscrapingapi.com/v1?api_key='.$api_key
+        .'&url='. urlencode($url)
+        .'&render_js=1'
+                .'&js_instructions='
+                        . urlencode('[
                         {"action":"scrollInf","count":"25","timeout": 100}
-                   ]'),
+                   ]');
+        
+        Log::trace()->debug('API_URL: '.$api_url);
+                   
+        return [
+            CURLOPT_URL => $api_url,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,

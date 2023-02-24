@@ -259,3 +259,553 @@
 [2023-02-20T18:36:40+00:00][DEBUG] INTERNAL LINKS count: 56
 [2023-02-20T18:36:40+00:00][DEBUG] INTERNAL LINKS count: 57
 [2023-02-20T18:36:40+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-21T20:58:02+00:00][DEBUG] START ANALYTICS.
+[2023-02-21T20:58:02+00:00][DEBUG] STEP_1: Domain: https://agencyanalytics.com/ and number of internal pages is: 5
+[2023-02-21T20:58:02+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.190224
+[2023-02-21T20:58:09+00:00][DEBUG] INTERNAL LINKS count: 5
+[2023-02-21T20:58:09+00:00][DEBUG] STEP_2: Unique internal links count: 5
+[2023-02-21T20:58:09+00:00][DEBUG] URL https://agencyanalytics.com//company/cookie-policy was crawled. StatusCode: 200. TransferTime: 0.137238
+[2023-02-21T20:58:24+00:00][DEBUG] URL https://agencyanalytics.com//company/privacy was crawled. StatusCode: 200. TransferTime: 0.127469
+[2023-02-21T20:58:34+00:00][DEBUG] URL https://agencyanalytics.com//feature/automated-marketing-reports was crawled. StatusCode: 200. TransferTime: 0.128567
+[2023-02-21T20:58:41+00:00][DEBUG] URL https://agencyanalytics.com//feature/custom-marketing-dashboards was crawled. StatusCode: 200. TransferTime: 0.234703
+[2023-02-21T20:58:56+00:00][DEBUG] URL https://agencyanalytics.com//feature/white-label was crawled. StatusCode: 200. TransferTime: 0.129295
+[2023-02-21T20:59:01+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-21T20:59:01+00:00][DEBUG] Building list of image sources. Count of Pages: 6
+[2023-02-21T20:59:25+00:00][DEBUG] 87 of unique images found.
+[2023-02-21T20:59:25+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-21T20:59:25+00:00][DEBUG] EXTERNAL LINKS count: 17
+[2023-02-21T20:59:25+00:00][DEBUG] EXTERNAL LINKS count: 21
+[2023-02-21T20:59:25+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-21T20:59:25+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-21T20:59:25+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-21T20:59:25+00:00][DEBUG] INTERNAL LINKS count: 129
+[2023-02-21T20:59:25+00:00][DEBUG] INTERNAL LINKS count: 51
+[2023-02-21T20:59:25+00:00][DEBUG] INTERNAL LINKS count: 51
+[2023-02-21T20:59:25+00:00][DEBUG] INTERNAL LINKS count: 58
+[2023-02-21T20:59:25+00:00][DEBUG] INTERNAL LINKS count: 59
+[2023-02-21T20:59:25+00:00][DEBUG] INTERNAL LINKS count: 55
+[2023-02-21T20:59:25+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:26:27+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:26:27+00:00][DEBUG] STEP_1: Domain: / and number of internal pages is: 0
+[2023-02-24T16:26:27+00:00][ERROR] URL / couldn't be crawled due to: <url> malformed
+[2023-02-24T16:26:28+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:26:28+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:26:28+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:26:28+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:26:28+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:26:28+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:26:28+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:26:28+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:26:40+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:26:40+00:00][DEBUG] STEP_1: Domain: http://google.com/ and number of internal pages is: 0
+[2023-02-24T16:26:40+00:00][DEBUG] URL http://google.com/ was crawled. StatusCode: 200. TransferTime: 0.290609
+[2023-02-24T16:26:50+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:26:50+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:26:50+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:26:50+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:26:51+00:00][DEBUG] 1 of unique images found.
+[2023-02-24T16:26:51+00:00][DEBUG] EXTERNAL LINKS count: 14
+[2023-02-24T16:26:51+00:00][DEBUG] INTERNAL LINKS count: 3
+[2023-02-24T16:26:51+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:45:15+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:45:15+00:00][DEBUG] STEP_1: Domain: http://google.com/ and number of internal pages is: 0
+[2023-02-24T16:45:15+00:00][DEBUG] URL http://google.com/ was crawled. StatusCode: 200. TransferTime: 0.173729
+[2023-02-24T16:45:20+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:45:20+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:45:20+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:45:20+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:45:20+00:00][DEBUG] 2 of unique images found.
+[2023-02-24T16:45:55+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:45:55+00:00][DEBUG] STEP_1: Domain: http://google.com/ and number of internal pages is: 0
+[2023-02-24T16:45:55+00:00][DEBUG] URL http://google.com/ was crawled. StatusCode: 200. TransferTime: 0.176313
+[2023-02-24T16:46:08+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:46:08+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:46:08+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:46:08+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:46:08+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:46:08+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:46:08+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:46:08+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:46:44+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:46:44+00:00][DEBUG] STEP_1: Domain: http://google.com/ and number of internal pages is: 0
+[2023-02-24T16:46:44+00:00][DEBUG] URL http://google.com/ was crawled. StatusCode: 200. TransferTime: 0.17007
+[2023-02-24T16:46:49+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:46:49+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:46:49+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:46:49+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:46:49+00:00][DEBUG] 3 of unique images found.
+[2023-02-24T16:46:49+00:00][DEBUG] EXTERNAL LINKS count: 17
+[2023-02-24T16:46:49+00:00][DEBUG] INTERNAL LINKS count: 4
+[2023-02-24T16:46:49+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:47:20+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:47:20+00:00][DEBUG] STEP_1: Domain: http://agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:47:20+00:00][DEBUG] URL http://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.164877
+[2023-02-24T16:47:27+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:47:27+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:47:27+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:47:27+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:47:36+00:00][DEBUG] 47 of unique images found.
+[2023-02-24T16:47:36+00:00][DEBUG] EXTERNAL LINKS count: 14
+[2023-02-24T16:47:36+00:00][DEBUG] INTERNAL LINKS count: 129
+[2023-02-24T16:47:36+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:47:56+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:47:56+00:00][DEBUG] STEP_1: Domain: https://agencyanalytics.com/feature/white-label and number of internal pages is: 0
+[2023-02-24T16:47:56+00:00][DEBUG] URL https://agencyanalytics.com/feature/white-label was crawled. StatusCode: 200. TransferTime: 0.097161
+[2023-02-24T16:48:03+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:48:03+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:48:03+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:48:03+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:48:07+00:00][DEBUG] 29 of unique images found.
+[2023-02-24T16:48:07+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-24T16:48:07+00:00][DEBUG] INTERNAL LINKS count: 56
+[2023-02-24T16:48:07+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:48:32+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:48:32+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:48:32+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.102767
+[2023-02-24T16:48:32+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:48:32+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:48:32+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:48:32+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:48:32+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:48:32+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:48:32+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:48:32+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:48:41+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:48:41+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:48:41+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.066301
+[2023-02-24T16:48:42+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:48:42+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:48:42+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:48:42+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:48:42+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:48:42+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:48:42+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:48:42+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:49:47+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:49:47+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:49:47+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.076238
+[2023-02-24T16:49:47+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:49:47+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:49:47+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:49:47+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:49:47+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:49:47+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:49:47+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:49:47+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:50:51+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:50:51+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:50:51+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.070052
+[2023-02-24T16:50:51+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:50:51+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:50:51+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:50:51+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:50:51+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:50:51+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:50:51+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:50:51+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:50:57+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:50:57+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:50:57+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.097241
+[2023-02-24T16:50:57+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:50:57+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:50:57+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:50:57+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:50:57+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:50:57+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:50:57+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:50:57+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:52:37+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:52:37+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:52:37+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.1681
+[2023-02-24T16:52:37+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:52:37+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:52:37+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:52:37+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:52:37+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:52:37+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:52:37+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:52:37+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:52:50+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:52:50+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:52:50+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.076278
+[2023-02-24T16:52:50+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:52:50+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:52:50+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:52:50+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:52:50+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:52:50+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:52:50+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:52:50+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:56:17+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:56:17+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:56:17+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.109914
+[2023-02-24T16:56:17+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:56:17+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:56:17+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:56:17+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:56:17+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:56:17+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:56:17+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:56:17+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:56:21+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:56:21+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:56:21+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.032445
+[2023-02-24T16:56:21+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:56:21+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:56:21+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:56:21+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:56:21+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:56:22+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:56:22+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:56:22+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:57:40+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:57:40+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:57:40+00:00][DEBUG] Validated domain name: https://
+[2023-02-24T16:57:40+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.19621
+[2023-02-24T16:57:40+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:57:40+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:57:40+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:57:40+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:57:40+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:57:40+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:57:40+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:57:40+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:58:51+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:58:51+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:58:51+00:00][DEBUG] Validated domain name: 
+[2023-02-24T16:58:51+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.107926
+[2023-02-24T16:58:51+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:58:51+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:58:51+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:58:51+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:58:51+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:58:51+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:58:51+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:58:51+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T16:59:04+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T16:59:04+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T16:59:04+00:00][DEBUG] Validated domain name: 
+[2023-02-24T16:59:04+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.069832
+[2023-02-24T16:59:04+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:59:04+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T16:59:04+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T16:59:04+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T16:59:04+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T16:59:04+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T16:59:04+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T16:59:04+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:00:05+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:00:05+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:00:05+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:00:06+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.079092
+[2023-02-24T17:00:06+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:00:06+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:00:06+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:00:06+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:00:06+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:00:06+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:00:06+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:00:06+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:00:21+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:00:21+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:00:21+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:00:21+00:00][DEBUG] URL agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.037099
+[2023-02-24T17:00:21+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:00:21+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:00:21+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:00:21+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:00:21+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:00:21+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:00:21+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:00:21+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:00:39+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:00:39+00:00][DEBUG] STEP_1: Domain: https://agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:00:39+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:00:39+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.064704
+[2023-02-24T17:00:44+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:00:44+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:00:44+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:00:44+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:00:48+00:00][DEBUG] 47 of unique images found.
+[2023-02-24T17:00:48+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-24T17:00:48+00:00][DEBUG] INTERNAL LINKS count: 129
+[2023-02-24T17:00:48+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:02:27+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:02:27+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:02:27+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:02:27+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.065738
+[2023-02-24T17:02:35+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:02:35+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:02:35+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:02:35+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:02:37+00:00][DEBUG] 46 of unique images found.
+[2023-02-24T17:02:37+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-24T17:02:37+00:00][DEBUG] INTERNAL LINKS count: 128
+[2023-02-24T17:02:37+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:02:44+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:02:44+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 1
+[2023-02-24T17:02:44+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:02:44+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.146207
+[2023-02-24T17:03:00+00:00][DEBUG] INTERNAL LINKS count: 1
+[2023-02-24T17:03:00+00:00][DEBUG] STEP_2: Unique internal links count: 1
+[2023-02-24T17:03:00+00:00][DEBUG] Validated domain name: https://
+[2023-02-24T17:03:00+00:00][ERROR] URL https:////feature/automated-marketing-reports couldn't be crawled due to: Bad URL
+[2023-02-24T17:03:00+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:03:00+00:00][DEBUG] Building list of image sources. Count of Pages: 2
+[2023-02-24T17:03:00+00:00][DEBUG] 22 of unique images found.
+[2023-02-24T17:03:00+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:03:00+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:03:00+00:00][DEBUG] INTERNAL LINKS count: 128
+[2023-02-24T17:03:00+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:03:00+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:03:39+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:03:39+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 1
+[2023-02-24T17:03:39+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:03:39+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.095791
+[2023-02-24T17:03:45+00:00][DEBUG] INTERNAL LINKS count: 1
+[2023-02-24T17:03:45+00:00][DEBUG] STEP_2: Unique internal links count: 1
+[2023-02-24T17:03:45+00:00][DEBUG] Validated domain name: https://
+[2023-02-24T17:03:45+00:00][ERROR] URL https:////feature/automated-marketing-reports couldn't be crawled due to: Bad URL
+[2023-02-24T17:03:45+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:03:45+00:00][DEBUG] Building list of image sources. Count of Pages: 2
+[2023-02-24T17:03:45+00:00][DEBUG] 23 of unique images found.
+[2023-02-24T17:03:45+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:03:45+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:03:45+00:00][DEBUG] INTERNAL LINKS count: 128
+[2023-02-24T17:03:45+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:03:46+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:04:51+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:04:51+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 1
+[2023-02-24T17:04:51+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:04:51+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.064626
+[2023-02-24T17:04:51+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:04:51+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:04:51+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:04:51+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:04:51+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:04:51+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:04:51+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:04:51+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:05:19+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:05:19+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 1
+[2023-02-24T17:05:19+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:05:19+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.066827
+[2023-02-24T17:05:19+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:05:19+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:05:19+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:05:19+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:05:19+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:05:19+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:05:19+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:05:19+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:05:47+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:05:47+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 1
+[2023-02-24T17:05:47+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:05:47+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.026569
+[2023-02-24T17:05:47+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:05:47+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:05:47+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:05:47+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:05:47+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:05:47+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:05:47+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:05:47+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:06:52+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:06:52+00:00][DEBUG] STEP_1: Domain: https://agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:06:52+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:06:52+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.065755
+[2023-02-24T17:06:52+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:06:52+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:06:52+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:06:52+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:06:52+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:06:52+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:06:52+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:06:52+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:08:08+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:08:08+00:00][DEBUG] STEP_1: Domain: https://agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:08:08+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:08:08+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.224833
+[2023-02-24T17:08:08+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=36yICX4hjnL28517tFKOYBSMjcQvsxki&url=https%3A%2F%2Fagencyanalytics.com%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:08:08+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:08:08+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:08:08+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:08:08+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:08:08+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:08:08+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:08:08+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:08:08+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:09:35+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:09:35+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:09:35+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:09:35+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.065519
+[2023-02-24T17:09:35+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=36yICX4hjnL28517tFKOYBSMjcQvsxki&url=https%3A%2F%2Fagencyanalytics.com%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:09:35+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:09:35+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:09:35+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:09:35+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:09:35+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:09:35+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:09:35+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:09:35+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:10:54+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:10:54+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:10:54+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:10:54+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.066416
+[2023-02-24T17:10:54+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=36yICX4hjnL28517tFKOYBSMjcQvsxki&url=https%3A%2F%2Fagencyanalytics.com%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:10:54+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:10:54+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:10:54+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:10:54+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:10:54+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:10:54+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:10:54+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:10:54+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:22:05+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:22:05+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:22:05+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:22:05+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.124822
+[2023-02-24T17:22:05+00:00][DEBUG] API_URL: https://api.scrapingant.com/v2/general?x-api-key=be41cbcc16b94c3999033e0a7604ea66&url=https%3A%2F%2Fagencyanalytics.com%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:22:35+00:00][ERROR] URL https://agencyanalytics.com/ couldn't be crawled due to: Operation timed out after 30000 milliseconds with 0 bytes received
+[2023-02-24T17:22:35+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:22:35+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:22:35+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:22:35+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:22:35+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:22:35+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:22:35+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:22:35+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:23:16+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:23:16+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:23:16+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:23:16+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.069453
+[2023-02-24T17:23:16+00:00][DEBUG] API_URL: https://api.scrapingant.com/v2/general?x-api-key=be41cbcc16b94c3999033e0a7604ea66&url=https%3A%2F%2Fagencyanalytics.com%2F
+[2023-02-24T17:23:39+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:23:39+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:23:39+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:23:39+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:23:40+00:00][DEBUG] 43 of unique images found.
+[2023-02-24T17:23:40+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-24T17:23:40+00:00][DEBUG] INTERNAL LINKS count: 128
+[2023-02-24T17:23:40+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:26:22+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:26:22+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:26:30+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:26:30+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:26:30+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:26:30+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.096306
+[2023-02-24T17:26:30+00:00][DEBUG] API_URL: https://api.scrapingant.com/v2/general?x-api-key=be41cbcc16b94c3999033e0a7604ea66&url=https%3A%2F%2Fagencyanalytics.com%2F&js_snippet=d2luZG93LnNjcm9sbFRvKDAsZG9jdW1lbnQuYm9keS5zY3JvbGxIZWlnaHQpOwphd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMTAwMCkpOw==
+[2023-02-24T17:26:31+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:26:31+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:26:31+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:26:31+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:26:31+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:26:31+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:26:31+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:26:31+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:29:49+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:29:49+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:29:49+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:29:49+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.124321
+[2023-02-24T17:29:49+00:00][DEBUG] API_URL: https://api.scrapingant.com/v2/general?x-api-key=be41cbcc16b94c3999033e0a7604ea66&url=https%3A%2F%2Fagencyanalytics.com%2F&js_snippet=d2luZG93LnNjcm9sbFRvKDAsZG9jdW1lbnQuYm9keS5zY3JvbGxIZWlnaHQpO2F3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAxMDAwKSk7
+[2023-02-24T17:30:19+00:00][ERROR] URL https://agencyanalytics.com/ couldn't be crawled due to: Operation timed out after 30001 milliseconds with 0 bytes received
+[2023-02-24T17:30:19+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:30:19+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:30:19+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:30:19+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:30:19+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:30:19+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:30:19+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:30:19+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:30:43+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:30:43+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:30:43+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:30:43+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.024785
+[2023-02-24T17:30:43+00:00][DEBUG] API_URL: https://api.scrapingant.com/v2/general?x-api-key=be41cbcc16b94c3999033e0a7604ea66&url=https%3A%2F%2Fagencyanalytics.com%2F&js_snippet=d2luZG93LnNjcm9sbFRvKDAsZG9jdW1lbnQuYm9keS5zY3JvbGxIZWlnaHQpOw==
+[2023-02-24T17:31:13+00:00][ERROR] URL https://agencyanalytics.com/ couldn't be crawled due to: Operation timed out after 30001 milliseconds with 0 bytes received
+[2023-02-24T17:31:13+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:31:13+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:31:13+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:31:13+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:31:13+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:31:13+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:31:13+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:31:13+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:36:19+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:36:19+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/ and number of internal pages is: 0
+[2023-02-24T17:36:19+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:36:19+00:00][DEBUG] URL https://agencyanalytics.com/ was crawled. StatusCode: 200. TransferTime: 0.115574
+[2023-02-24T17:36:19+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=tWUiMFDMtIHpP6kyOZtxTt3VumHTANjr&url=https%3A%2F%2Fagencyanalytics.com%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:36:25+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:36:25+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:36:25+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:36:25+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:36:26+00:00][DEBUG] 47 of unique images found.
+[2023-02-24T17:36:26+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-24T17:36:26+00:00][DEBUG] INTERNAL LINKS count: 128
+[2023-02-24T17:36:26+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:36:43+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:36:43+00:00][DEBUG] STEP_1: Domain: agencyanalytics.com/feature/white-label and number of internal pages is: 0
+[2023-02-24T17:36:43+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:36:43+00:00][DEBUG] URL https://agencyanalytics.com/feature/white-label was crawled. StatusCode: 200. TransferTime: 0.098792
+[2023-02-24T17:36:43+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=tWUiMFDMtIHpP6kyOZtxTt3VumHTANjr&url=https%3A%2F%2Fagencyanalytics.com%2Ffeature%2Fwhite-label&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:36:49+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:36:49+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:36:49+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:36:49+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:36:51+00:00][DEBUG] 29 of unique images found.
+[2023-02-24T17:36:51+00:00][DEBUG] EXTERNAL LINKS count: 8
+[2023-02-24T17:36:51+00:00][DEBUG] INTERNAL LINKS count: 56
+[2023-02-24T17:36:51+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:36:59+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:36:59+00:00][DEBUG] STEP_1: Domain: https://agencyanalytics.com/feature/twitter-analytics-dashboard and number of internal pages is: 0
+[2023-02-24T17:36:59+00:00][DEBUG] Validated domain name: https://agencyanalytics.com
+[2023-02-24T17:36:59+00:00][DEBUG] URL https://agencyanalytics.com/feature/twitter-analytics-dashboard was crawled. StatusCode: 200. TransferTime: 0.088189
+[2023-02-24T17:36:59+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=tWUiMFDMtIHpP6kyOZtxTt3VumHTANjr&url=https%3A%2F%2Fagencyanalytics.com%2Ffeature%2Ftwitter-analytics-dashboard&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:37:05+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:37:05+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:37:05+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:37:05+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:37:07+00:00][DEBUG] 23 of unique images found.
+[2023-02-24T17:37:07+00:00][DEBUG] EXTERNAL LINKS count: 9
+[2023-02-24T17:37:07+00:00][DEBUG] INTERNAL LINKS count: 56
+[2023-02-24T17:37:07+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:37:31+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:37:31+00:00][DEBUG] STEP_1: Domain: https://www.php.net// and number of internal pages is: 0
+[2023-02-24T17:37:31+00:00][DEBUG] Validated domain name: https://www.php.net
+[2023-02-24T17:37:31+00:00][DEBUG] URL https://www.php.net/ was crawled. StatusCode: 200. TransferTime: 0.691395
+[2023-02-24T17:37:31+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=tWUiMFDMtIHpP6kyOZtxTt3VumHTANjr&url=https%3A%2F%2Fwww.php.net%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:37:38+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:37:38+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:37:38+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:37:38+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:37:40+00:00][DEBUG] 24 of unique images found.
+[2023-02-24T17:37:40+00:00][DEBUG] EXTERNAL LINKS count: 53
+[2023-02-24T17:37:40+00:00][DEBUG] INTERNAL LINKS count: 102
+[2023-02-24T17:37:40+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:38:02+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:38:02+00:00][DEBUG] STEP_1: Domain: asdsadsadsad/ and number of internal pages is: 0
+[2023-02-24T17:38:02+00:00][DEBUG] Validated domain name: https://asdsadsadsad
+[2023-02-24T17:38:02+00:00][ERROR] URL https://asdsadsadsad/ couldn't be crawled due to: Could not resolve host: asdsadsadsad
+[2023-02-24T17:38:02+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=tWUiMFDMtIHpP6kyOZtxTt3VumHTANjr&url=https%3A%2F%2Fasdsadsadsad%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:38:02+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:38:02+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:38:02+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:38:02+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:38:02+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:38:02+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:38:02+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:38:02+00:00][DEBUG] FINISH ANALYTICS.
+[2023-02-24T17:38:22+00:00][DEBUG] START ANALYTICS.
+[2023-02-24T17:38:22+00:00][DEBUG] STEP_1: Domain: asdsadasdsad/ and number of internal pages is: 0
+[2023-02-24T17:38:22+00:00][DEBUG] Validated domain name: https://asdsadasdsad
+[2023-02-24T17:38:22+00:00][ERROR] URL https://asdsadasdsad/ couldn't be crawled due to: Could not resolve host: asdsadasdsad
+[2023-02-24T17:38:22+00:00][DEBUG] API_URL: https://api.webscrapingapi.com/v1?api_key=tWUiMFDMtIHpP6kyOZtxTt3VumHTANjr&url=https%3A%2F%2Fasdsadasdsad%2F&render_js=1&js_instructions=%5B%0A++++++++++++++++++++++++%7B%22action%22%3A%22scrollInf%22%2C%22count%22%3A%2225%22%2C%22timeout%22%3A+100%7D%0A+++++++++++++++++++%5D
+[2023-02-24T17:38:22+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:38:22+00:00][DEBUG] STEP_2: Unique internal links count: 0
+[2023-02-24T17:38:22+00:00][DEBUG] STEP_3: Calculating KPIs.
+[2023-02-24T17:38:22+00:00][DEBUG] Building list of image sources. Count of Pages: 1
+[2023-02-24T17:38:22+00:00][DEBUG] 0 of unique images found.
+[2023-02-24T17:38:22+00:00][DEBUG] EXTERNAL LINKS count: 0
+[2023-02-24T17:38:22+00:00][DEBUG] INTERNAL LINKS count: 0
+[2023-02-24T17:38:22+00:00][DEBUG] FINISH ANALYTICS.

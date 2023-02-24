@@ -110,7 +110,7 @@ class Links
         
         foreach ($this->getAllUnique() as $link) {
             if (substr($link, 0, 4) == 'http'
-                && parse_url($link, PHP_URL_HOST) != 'agencyanalytics.com'
+                && !strstr($link, WebCrawler::$domainName)
             ) {
                 $external_links[] = $link;
             }

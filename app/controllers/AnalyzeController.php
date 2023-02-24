@@ -32,7 +32,7 @@ class AnalyzeController extends Controller
         Log::trace()->debug('STEP_1: Domain: '. $domain.$url_path .' and number of internal pages is: ' . $numpages);
         
         $results = new Results();
-        $results->add(WebCrawler::init($domain)->crawl($domain.$url_path));
+        $results->add(WebCrawler::init($domain)->crawl(WebCrawler::$domainName . $url_path));
         
         $links = new Links();
         $links->setContent($results->get(0)['content']);

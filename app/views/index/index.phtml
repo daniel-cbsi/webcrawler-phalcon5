@@ -5,10 +5,15 @@
 <form action="/analyze" method="post" id="start-form">
 
     <div class="form-group form-floating">
-        <label for="domain" class="text-muted" style="padding: 17px 0 0 12px">https://agencyanalytics.com</label>
-        <input style="padding: 0 0 0 210px" type="text" name="url_path" value="/" id="domain" class="form-control" placeholder="Enter domain" />
-        <input type="hidden" name="domain" value="https://agencyanalytics.com" />
-        <small class="form-text text-muted">Provide URL path for https://agencyanalytics.com. E.g. /feature/white-label</small>
+        <label for="domain" class="text-muted" style="padding: 17px 0 0 12px">Domain: </label>
+        <input style="padding: 0 0 0 120px" type="text" name="domain" value="" id="domain" class="form-control" placeholder="Enter domain" required/>
+        <small class="form-text text-muted">Provide domain name address. E.g. http://google.com</small>
+    </div>
+
+    <div class="form-group form-floating">
+        <label for="domain" class="text-muted" style="padding: 17px 0 0 12px">URL path: </label>
+        <input style="padding: 0 0 0 120px" type="text" name="url_path" value="/" id="domain" class="form-control" placeholder="Enter url path" required/>
+        <small class="form-text text-muted">Provide URL path for the domain. E.g. /path/to/function/etc</small>
     </div>
     
     <div class="form-group mt-3">
